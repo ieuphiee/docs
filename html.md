@@ -7,6 +7,8 @@ Used to store custom data on HTML elements when there are no appropriate attribu
 
 ### Describe the difference between a cookie, sessionStorage and localStorage.
 All 3 technologies are ways to cache information on the client side.
+![image](https://user-images.githubusercontent.com/24919123/139177812-31799200-5122-44d5-9d5c-e81c313b55f6.png)
+
  
 ### Describe the difference between `<script>`, `<script async>` and `<script defer>`
 - Script – script is fetched & executed immediately, and HTML parsing gets blocked (“waits”) until the script finishes loading
