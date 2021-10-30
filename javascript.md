@@ -40,19 +40,19 @@ A promise is an object that will definitely have a value in the future, either a
 Is a function which is immediately called after the first function, if it completes. Usually passed in as an argument to another function, such that when the parent method completes the callback fn is invoked afterwards
 
 ### Explain the difference between synchronous and asynchronous functions.
--	Synchronous – blocking; statements must complete before the next statement can be run, program is executed in the order the code is written 
--	Asynchronous – non-blocking; often accept a callback function to run after the function is invoked, other code will not wait for the function to complete (aka will continue execution after the function is invoked)
-    - Heavy duty operations like fetching data from an API call should be done asynchronously so that the main thread can continue to perform other tasks, instead of waiting for the network call to complete
+- Synchronous – blocking; statements must complete before the next statement can be run, program is executed in the order the code is written 
+- Asynchronous – non-blocking; often accept a callback function to run after the function is invoked, other code will not wait for the function to complete (aka will continue execution after the function is invoked)
+- Heavy duty operations like fetching data from an API call should be done asynchronously so that the main thread can continue to perform other tasks, instead of waiting for the network call to complete
 
 ### What are the differences between variables created using `let`, `var` or `const`?
-•	Var – scoped to the function in which they are created, else scoped to the global object
-•	Let – is block-scoped, only accessible within nearest pair of curly brackets (like if else), is mutable (value can be changed)
-•	Const – is block-scoped, is immutable (value cannot be changed)
+- Var – scoped to the function in which they are created, else scoped to the global object
+- Let – is block-scoped, only accessible within nearest pair of curly brackets (like if else), is mutable (value can be changed)
+- Const – is block-scoped, is immutable (value cannot be changed)
 
 ### Can you offer a use case for the new arrow `=>` function syntax? How does this new syntax differ from other functions?
 Arrow functions are an ES6 feature
-•	Simplifies syntax for creating functions
-•	The “this” keyword is lexically scoped in arrow functions, compared to regular functions where the `this` keyword is bound to the object from which it was called
+- Simplifies syntax for creating functions
+-The “this” keyword is lexically scoped in arrow functions, compared to regular functions where the `this` keyword is bound to the object from which it was called
 
 ### What is destructuring?
 ES6 expression which allows you to extract specific values of an object or array and place them into distinct variables.
